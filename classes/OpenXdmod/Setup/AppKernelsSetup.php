@@ -99,7 +99,7 @@ EOT
                 $akConf['akrr-db_user'],
                 $akConf['akrr-db_pass'],
                 $akConf['akrr-db_database'],
-                "SCHEDULEDTASKS"
+                "scheduled_tasks"
             );
             print_r($can_access_app_kernel_db);
             print_r($can_access_akrr_db);
